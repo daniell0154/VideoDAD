@@ -186,7 +186,7 @@ Video
   left: 0;
   right: 0;
   bottom: 0;
-  background: var(--clr-white);
+  /* background: var(--clr-white); */
   display: grid;
   justify-content: center;
   align-items: center;
@@ -221,8 +221,8 @@ h1 {
 
 .switch-btn {
   position: absolute;
-  bottom: 7%;
-  left: 7%;
+  bottom: 10%;
+  left: 9%;
   width: 7rem;
   height: 2rem;
   display: flex;
@@ -231,16 +231,17 @@ h1 {
   justify-content: space-around;
   border: none;
   transition: var(--transition);
-  background: var(--clr-white);
+  background: transparent;
 }
 
-.switch-btn span {
+/* .switch-btn span {
   display: inline-block;
   font-size: 0.85rem;
   cursor: pointer;
   text-transform: capitalize;
   color: var(--clr-primary-5);
-}
+} */
+
 .switch {
   position: absolute;
   width: 50%;
@@ -253,8 +254,21 @@ h1 {
   display: block;
   transition: var(--transition);
 }
+
 .slide .switch {
   left: 50%;
+}
+
+.switch-btn .pause {
+  display: none;
+}
+
+.switch-btn.slide .play {
+  display: none;
+}
+
+.switch-btn.slide .pause {
+  display: flex;
 }
 
 /* header after */
@@ -271,8 +285,8 @@ header::after {
 
 .pular-btn {
   position: absolute;
-  bottom: 15%;
-  left: 7%;
+  bottom: 23%;
+  left: 9%;
   width: 7rem;
   height: 2rem;
   display: flex;
