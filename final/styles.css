@@ -279,8 +279,12 @@ header::after {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.7); 
   z-index: -1;
+}
+
+header.no-bg::after {
+  background: transparent;
 }
 
 .pular-btn {
@@ -304,4 +308,15 @@ header::after {
   background-color: gray;
   color: var(--clr-white);
   transition: 0.3s;
+}
+
+.videoTransicao {
+  position: absolute;   /* coloca fora do fluxo normal */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;    /* cobre a tela inteira sem distorcer */
+  z-index: -2;        /* acima de tudo */
+  display: none;        /* começa escondido */
 }
