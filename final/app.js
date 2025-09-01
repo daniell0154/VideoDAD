@@ -1,7 +1,7 @@
 const btn = document.querySelector(".switch-btn");
 const video = document.querySelector(".video-container");
 const btnPular = document.querySelector(".pular-btn")
-const videos = ["./media/video.mp4", "./media/video2.mp4", "./media/video3.mp4"]
+const videos = ["/media/video.mp4", "/media/video2.mp4", "/media/video3.mp4"]
 const source = document.querySelector("#src")
 const header = document.querySelector("header")
 const titulo = document.querySelector("h1")
