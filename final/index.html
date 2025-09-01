@@ -10,24 +10,43 @@
   </head>
   <body>
     <!-- preloader -->
-    <div class="preloader">
+    <!-- <div class="preloader">
       <img src="preloader.gif" alt="preloader" class="preloader__item" />
-    </div>
+    </div> -->
     <!-- header -->
     <header>
-      <video controls muted autoplay loop class="video-container">
-        <source src="./video.mp4" type="video/mp4" />
+      <video muted autoplay loop class="video-container">
+        <source src="./media/video.mp4" type="video/mp4" id="src"/>
       </video>
-      <h1>video project</h1>
+
+      <video muted class="videoTransicao" style="display: none">
+        <source src="./media/transicao.mp4" type="video/mp4">
+      </video>
+      <h1>Os melhores trailers da humanidade!</h1>
       <!-- video switch -->
-      <button class="switch-btn">
-        <span>
-          play
-        </span>
-        <span>
-          pause
-        </span>
-        <span class="switch"></span>
+      <!-- video switch -->
+      <div class="botoes">
+        <button class="voltar">
+          <img src="./media/voltar-img.png" alt="">
+        </button>
+
+        <button class="switch-btn">
+          <span class="play">
+            <img src="./media/play.png" alt="">
+          </span>
+          <span class="pause">
+            <img src="./media/pause.png">
+          </span>
+          <!-- <span class="switch"></span> -->
+        </button>
+
+        <button class="avancar">
+          <img src="./media/avançar-img.png" alt="">
+        </button>
+      </div>
+
+      <button class="pular-btn">
+        Próximo trailer
       </button>
     </header>
     <!-- javascript -->
