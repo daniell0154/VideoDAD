@@ -33,6 +33,11 @@ window.addEventListener("load", function () {
   preloader.classList.add("hide-preloader");
 });
 
+window.addEventListener("load", () => {
+  const video = document.querySelector(".video-container");
+  video.play();
+});
+
 // Botão pular (executa transição e troca vídeo)
 btnPular.addEventListener("click", trocarVideo)
 
@@ -87,7 +92,7 @@ function trocarVideo() {
     btnPular.style.display = "flex"
 
     index = (index + 1) % videos.length;
-    source.src = videos[index];
+    video.src = videos[index];
     btn.classList.remove("slide");
     video.load();
     video.play();
