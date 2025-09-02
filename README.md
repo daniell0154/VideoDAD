@@ -16,7 +16,7 @@ Este projeto é um **reprodutor de trailers** interativo desenvolvido em **HTML,
   - Seta direita → Avançar
   - Seta esquerda → Voltar
 - (Opcional) Preloader para exibir uma animação de carregamento.
-- 
+  
 ---
 
 ## 🖥️ Tecnologias Utilizadas
@@ -30,5 +30,4 @@ Este projeto é um **reprodutor de trailers** interativo desenvolvido em **HTML,
 
 Projeto desenvolvido por:
 
-**Bianca Clarindo**
-**Daniel Ferreira**
+**Bianca Clarindo** e **Daniel Ferreira**
