@@ -11,6 +11,7 @@ const voltar = document.querySelector(".voltar");
 
 let index = 0
 
+// Alterna vídeo, estilo do header e texto do título ao clicar no botão
 btn.addEventListener("click", function () {
   if (!btn.classList.contains("slide")) {
     btn.classList.add("slide");
