@@ -16,25 +16,7 @@ Este projeto é um **reprodutor de trailers** interativo desenvolvido em **HTML,
   - Seta direita → Avançar
   - Seta esquerda → Voltar
 - (Opcional) Preloader para exibir uma animação de carregamento.
-
----
-
-## 📂 Estrutura de Arquivos
-
-📦 Projeto
-┣ 📂 media
-┃ ┣ video.mp4
-┃ ┣ video2.mp4
-┃ ┣ video3.mp4
-┃ ┣ transicao.mp4
-┃ ┣ play.png
-┃ ┣ pause.png
-┃ ┣ voltar-img.png
-┃ ┗ avançar-img.png
-┣ index.html
-┣ app.js
-┗ styles.css
-
+- 
 ---
 
 ## 🖥️ Tecnologias Utilizadas
